@@ -4,7 +4,9 @@ Simple voting dapp on ethereum/solidity
 This updates his tutorial with new web3 1.X bindings, and packages the tutorial for easy installation.
 
 ### Installation and Usage
-
+```
+git clone https://github.com/dis-gie/blockchain && cd blockchain
+```
 Clone repository and run
 ```
 npm install
