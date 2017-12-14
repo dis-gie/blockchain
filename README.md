@@ -1,7 +1,6 @@
-# Hello World Dapp
+# DISA Voting Dapp
 
-Simple voting dapp based on [Mahesh Murthy's Medium article](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2)
-
+Simple voting dapp on ethereum/solidity 
 This updates his tutorial with new web3 1.X bindings, and packages the tutorial for easy installation.
 
 ### Installation and Usage
