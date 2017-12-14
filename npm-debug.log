@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/d3vt4r/.nvm/versions/node/v6.0.0/bin/node',
+1 verbose cli   '/home/d3vt4r/.nvm/versions/node/v6.0.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'testrpc' ]
+2 info using npm@3.8.6
+3 info using node@v6.0.0
+4 verbose stack Error: Invalid name: "DISA Voting on Blockchain POV"
+4 verbose stack     at ensureValidName (/home/d3vt4r/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:336:15)
+4 verbose stack     at Object.module.exports.fixNameField (/home/d3vt4r/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:215:5)
+4 verbose stack     at /home/d3vt4r/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:32:38
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at normalize (/home/d3vt4r/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:31:15)
+4 verbose stack     at final (/home/d3vt4r/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:338:5)
+4 verbose stack     at then (/home/d3vt4r/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at /home/d3vt4r/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:300:12
+4 verbose stack     at /home/d3vt4r/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+4 verbose stack     at tryToString (fs.js:449:3)
+5 verbose cwd /home/d3vt4r/Documents/blockchain/DISA Voting on Blockchain POV
+6 error Linux 4.10.0-42-generic
+7 error argv "/home/d3vt4r/.nvm/versions/node/v6.0.0/bin/node" "/home/d3vt4r/.nvm/versions/node/v6.0.0/bin/npm" "run" "testrpc"
+8 error node v6.0.0
+9 error npm  v3.8.6
+10 error Invalid name: "DISA Voting on Blockchain POV"
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
